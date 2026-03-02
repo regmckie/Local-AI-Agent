@@ -24,6 +24,7 @@ This file provides the logic for embedding documents and looking them up (i.e., 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 HOW TO RUN:
+
 You can run this directory in any IDE of your choice. I developed and ran this in Python.
 
 Before running the main.py file, do these:
