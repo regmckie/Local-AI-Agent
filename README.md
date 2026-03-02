@@ -1,9 +1,9 @@
 # Local-AI-Agent
 
-FILENAME: README.txt
-AUTHOR: Reg Gonzalez
-CONTACT: regmckie@gmail.com
-DATE: 3/1/2026
+FILENAME: README.txt <br>
+AUTHOR: Reg Gonzalez <br>
+CONTACT: regmckie@gmail.com <br>
+DATE: 3/1/2026 <br>
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
