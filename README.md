@@ -20,3 +20,17 @@ This file models in our language model (llama3.2 from Ollama), creates a prompt 
 
 vectorSearch.py:
 This file provides the logic for embedding documents and looking them up (i.e., vectorizing). Vector store is a database; it's going to be hosted locally in our computer using ChromaDB. Using vectorization allows you to look up relevant information to pass to the model. The model then uses that data to give us relevant replies. This file reads in the CSV file for the movie descriptions, creates the embeddings using the mxbai-embed-large model, and creates a location to store our vector db (if none exists).
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+HOW TO RUN:
+You can run this directory in any IDE of your choice. I developed and ran this in Python.
+
+Before running the main.py file, do these:
+1. In the project directory, open the terminal and create a virtual environment using the command: python -m venv venv
+2. Activate the virutal environment with the command: ./venv/Scripts/activate
+3. Install these requirements with this command: pip install langchain langchain-ollama langchain-chroma
+4. Download Ollama gy going to [this website.](https://ollama.com/) 
+5. Open up a second terminal and type: ollama pull llama3.2
+6. Still in the second terminal, type: ollama pull mxbai-embed-large
+7. After all the dependencies are installed you can run main.py!
