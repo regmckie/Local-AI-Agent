@@ -30,7 +30,7 @@ Before running the main.py file, do these:
 1. In the project directory, open the terminal and create a virtual environment using the command: python -m venv venv
 2. Activate the virutal environment with the command: ./venv/Scripts/activate
 3. Install these requirements with this command: pip install langchain langchain-ollama langchain-chroma
-4. Download Ollama gy going to [this website.](https://ollama.com/) 
+4. Download Ollama by going to [this website.](https://ollama.com/) 
 5. Open up a second terminal and type: ollama pull llama3.2
 6. Still in the second terminal, type: ollama pull mxbai-embed-large
 7. After all the dependencies are installed you can run main.py!
