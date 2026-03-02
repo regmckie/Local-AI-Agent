@@ -23,7 +23,7 @@ This file provides the logic for embedding documents and looking them up (i.e., 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 HOW TO RUN:
-You can run this directory in any IDE of your choice. I developed and ran this in Python.
+You can run this directory in any IDE of your choice. I developed and ran this in PyCharm.
 
 Before running the main.py file, do these:
 1. In the project directory, open the terminal and create a virtual environment using the command: python -m venv venv
@@ -33,4 +33,5 @@ Before running the main.py file, do these:
 5. Open up a second terminal and type: ollama pull llama3.2
 6. Still in the second terminal, type: ollama pull mxbai-embed-large
 7. After all the dependencies are installed you can run main.py!
+
 
