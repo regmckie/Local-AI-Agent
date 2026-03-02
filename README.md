@@ -25,7 +25,7 @@ This file provides the logic for embedding documents and looking them up (i.e., 
 
 HOW TO RUN:
 
-You can run this directory in any IDE of your choice. I developed and ran this in Python.
+You can run this directory in any IDE of your choice. I developed and ran this in PyCharm.
 
 Before running the main.py file, do these:
 1. In the project directory, open the terminal and create a virtual environment using the command: python -m venv venv
